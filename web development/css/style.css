@@ -1,0 +1,117 @@
+header
+{
+	background-image:url("https://www.cancer.org/latest-news/coffee-and-cancer-what-the-research-really-shows/_jcr_content/par/textimage/image.img.jpg/1522697270446.jpg");
+	text-align:center;
+	color:white;
+	padding-top:2%;
+	padding-bottom:2%;
+	width:100%;
+}
+nav a
+{
+	    text-align: center;
+	    border-radius: 4px;
+	    position:relative;
+    	display: block;
+	color:white;
+	    background-color: transparent;
+	cursor: pointer;
+	    text-decoration: none;
+	    box-sizing: border-box;
+	margin:4% 8% 4% 8%;
+}
+nav a:hover
+{
+	box-sizing:border-box;
+	border-radius:25px;
+	line-height:45px;
+	height:60px;
+	margin:1% 8% 1% 8%;
+	padding:1% 2%;
+	color:black;
+	background-color:white;
+	text-decoartion:none;
+	text-align:center;
+	
+}
+img
+{
+	box-sizing:border-box;
+	width:40%;
+	display:inline;
+	margin:1% 5% 1% 2%;
+}
+div
+{
+	color:#000000;
+	background-color:white;
+	border-radius:0%;
+	transition-property:color,background-color,border-radius;
+	tranition-duration:0.5s;
+	transition-timing-function:linear;
+	transition-delay:0.5s;
+}
+div:hover
+{
+	color:white;
+	background-color:#6f4e37;
+	border-radius:1.5%;
+}
+#container
+{
+	min-height:100vh;
+	margin-bottom:-75px;
+}
+#container:after
+{
+	content:"";
+	display:block;
+	height:75px;
+}
+footer
+{
+	  background-image: linear-gradient(to right,#552000,#7C2E00,#A24208,#C86428,#EE8D53);
+	color:white;
+	text-align:center;
+	width:100%;
+	position:fixed;
+	left:0;
+	bottom:0;
+	
+}
+
+
+@media screen and (min-width:778px)
+{
+	nav a
+	{
+		display:inline-block;
+		text-align:justify;
+		
+	}
+	div
+	{
+		display:inline-block;
+		width:100%;
+	}
+	img
+	{
+		display:inline;
+	}
+	.carousel .item 
+	{
+		height: auto;
+	}
+
+ 		
+.item img {
+    position: relative;
+    object-fit:cover;
+   height: auto;
+}
+}
+	
+
+			
+	
+	
