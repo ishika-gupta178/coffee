@@ -79,6 +79,38 @@ footer
 	bottom:0;
 	
 }
+.main
+{	
+	display:grid;
+	grid:auto auto/auto auto;
+	grid-gap:10px;
+	background-color:#ffdecf;
+	padding:10px;
+	
+}
+.num
+{
+	background-color:white;
+	padding:10px 10px;
+	
+}
+
+div.num:hover
+{
+	
+	color:black;
+	animation-name:example;
+	animation-duration:4s;
+	animation-iteration-count:3;
+}
+@keyframes example
+{
+	0% {background-color:#7c3c21;}
+	25% {background-color:#ec823a;}
+	50% {background-color:#f9c49a;}
+	100% {background-color:#e8e4e1;}
+}
+
 
 
 @media screen and (min-width:778px)
